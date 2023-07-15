@@ -1,0 +1,487 @@
+.head
+{
+    
+    position:absolute;
+  top: 35%;
+  left: 45%;
+ 
+  border: 2px solid rgb(19, 16, 16);
+    margin: auto;
+    margin-top: 3%;
+    background-image: radial-gradient(pink,aqua,yellow);
+  width: 120px;
+  height: 150px;
+  border-radius: 10%;
+}
+.eye1
+{
+    position:absolute;
+    top: 20%;
+    left: 65%;
+    border: 2px solid rgb(234, 221, 221);
+      margin: auto;
+      margin-top: 2%;
+    background-color: rgb(18, 19, 19);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.eye2
+{
+    position:absolute;
+    top: 20%;
+    left: 15%;
+    border: 2px solid rgb(235, 227, 227);
+      margin: auto;
+      margin-top: 2%;
+    background-color: rgb(1, 8, 6);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.mouth
+{
+    position:absolute;
+    top: 60%;
+    left: 40%;
+    border: 2px solid rgb(235, 227, 227);
+      margin: auto;
+      margin-top: 2%;
+    background-color: rgb(1, 8, 6);
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+}
+.center
+{
+    position:absolute;
+    top: 100%;
+    left: 7%;
+    border: 2px solid rgb(10, 9, 9);
+      margin: auto;
+      margin-top: 2%;
+   background-image: radial-gradient(pink,aqua,yellow);
+    width: 95px;
+    height: 200px;
+    border-radius: 20%;
+}
+.hand1
+{
+    position:absolute;
+    top: 120%;
+    left: 90%;
+    border: 2px solid rgb(10, 9, 9);
+      margin: auto;
+      margin-top: 2%;
+      background-image: radial-gradient(pink,aqua,yellow);
+    width: 100px;
+    height: 10px;
+    border-radius: 20%;
+}
+.hand2
+{
+    position:absolute;
+    top: 120%;
+    left: -80%;
+    border: 2px solid rgb(10, 9, 9);
+      margin: auto;
+      margin-top: 2%;
+      background-image: radial-gradient(pink,aqua,yellow);
+    width: 100px;
+    height: 10px;
+    border-radius: 20%;
+}
+.leg1
+{
+    position:absolute;
+    top: 240%;
+    left: 20%;
+    border: 2px solid rgb(10, 9, 9);
+      margin: auto;
+      margin-top: 2%;
+      background-image: radial-gradient(pink,aqua,yellow);
+    width: 10px;
+    height: 100px;
+    border-radius: 20%;
+}
+.leg2
+{
+    position:absolute;
+    top: 240%;
+    left: 70%;
+    border: 2px solid rgb(10, 9, 9);
+      margin: auto;
+      margin-top: 2%;
+      background-image: radial-gradient(pink,aqua,yellow);
+    width: 10px;
+    height: 100px;
+    border-radius: 20%;
+}
+.pupil1
+{
+    position:absolute;
+    top: 30%;
+    left: 35%;
+    border: 2px solid rgb(234, 221, 221);
+      margin: auto;
+      margin-top: 2%;
+    background-color: rgb(18, 19, 19);
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+}
+.box
+{
+   
+    height: 600px;
+    width: 600px;
+    border: 4px solid rgb(246, 244, 244);
+    margin: auto;
+    margin-top: 2%;
+   
+}
+body
+{
+    background-image: radial-gradient(grey,black);
+}
+.box:hover .head
+{
+    animation: face 1s infinite;
+}
+@keyframes face
+{
+    0%
+    {
+        transform: translateY(-20px);
+    }
+    25%
+    {
+        transform: translateX(20px);
+    }
+    50%
+    {
+        transform: translateY(-20px);
+    }
+    75%
+    {
+        transform: translateX(20px);
+    }
+    100%
+    {
+        transform: translateY(-20px);
+    }
+}
+.box:hover .eye1
+{
+    animation: leye 1s infinite;
+}
+@keyframes leye
+{
+    0%
+    {
+        background:gold;
+    }
+    25%
+    {
+        background:greenyellow;
+    }
+    50%
+    {
+        background: pink;
+    }
+    75%
+    {
+        background: green;
+    }
+    100%
+    {
+        background: orange;
+    }
+}
+.box:hover .eye2
+{
+    animation: leye 1s infinite;
+}
+@keyframes leye
+{
+    0%
+    {
+        background:gold;
+    }
+    25%
+    {
+        background:greenyellow;
+    }
+    50%
+    {
+        background: pink;
+    }
+    75%
+    {
+        background: green;
+    }
+    100%
+    {
+        background: orange;
+    }
+}
+.box:hover .mouth
+{
+    animation: leye 1s infinite;
+}
+@keyframes leye
+{
+    0%
+    {
+        background:red;
+    }
+    25%
+    {
+        background:rgb(241, 80, 126);
+    }
+    50%
+    {
+        background: rgba(114, 172, 47, 0.374);
+    }
+    75%
+    {
+        background: rgb(24, 147, 223);
+    }
+    100%
+    {
+        background: orange;
+    }
+}
+.box:hover .hand1
+{
+    animation: lhand 1s infinite;
+}
+@keyframes lhand
+{
+    0%
+    {
+        transform: rotate(180deg);
+        transform-origin: top center;
+    }
+    25%
+    {
+        transform: rotate(-180deg);
+        transform-origin: top center;
+    }
+    50%
+    {
+        transform: rotate(180deg);
+        transform-origin: top center;
+    }
+    75%
+    {
+        transform: rotate(-180deg);
+        transform-origin: top center;
+    }
+    100%
+    {
+        transform: rotate*(180deg);
+        transform-origin: top center;
+    }
+}
+.box:hover .hand2
+{
+    animation: lhand 1s infinite;
+}
+@keyframes lhand
+{
+    0%
+    {
+        transform: rotate(80deg);
+        transform-origin: top center;
+    }
+    25%
+    {
+        transform: rotate(-80deg);
+        transform-origin: top center;
+    }
+    50%
+    {
+        transform: rotate(80deg);
+        transform-origin: top center;
+    }
+    75%
+    {
+        transform: rotate(-80deg);
+        transform-origin: top center;
+    }
+    100%
+    {
+        transform: rotate*(80deg);
+        transform-origin: top center;
+    }
+}
+.box:hover .center
+{
+    animation: lhand 1s infinite;
+}
+@keyframes 2hand
+{
+    0%
+    {
+        transform: rotate(80deg);
+        transform-origin: top center;
+    }
+    25%
+    {
+        transform: rotate(-80deg);
+        transform-origin: top center;
+    }
+    50%
+    {
+        transform: rotate(80deg);
+        transform-origin: top center;
+    }
+    75%
+    {
+        transform: rotate(-80deg);
+        transform-origin: top center;
+    }
+    100%
+    {
+        transform: rotate*(80deg);
+        transform-origin: top center;
+    }
+}
+.box:hover .leg1
+{
+    animation: lhand 1s infinite;
+}
+@keyframes lhand
+{
+    0%
+    {
+        transform: rotate(80deg);
+        transform-origin: top center;
+    }
+    25%
+    {
+        transform: rotate(-80deg);
+        transform-origin: top center;
+    }
+    50%
+    {
+        transform: rotate(80deg);
+        transform-origin: top center;
+    }
+    75%
+    {
+        transform: rotate(-80deg);
+        transform-origin: top center;
+    }
+    100%
+    {
+        transform: rotate*(80deg);
+        transform-origin: top center;
+    }
+}
+.box:hover .leg2
+{
+    animation: lhand 1s infinite;
+}
+@keyframes lhand
+{
+    0%
+    {
+        transform: rotate(80deg);
+        transform-origin: top center;
+    }
+    25%
+    {
+        transform: rotate(-80deg);
+        transform-origin: top center;
+    }
+    50%
+    {
+        transform: rotate(80deg);
+        transform-origin: top center;
+    }
+    75%
+    {
+        transform: rotate(-80deg);
+        transform-origin: top center;
+    }
+    100%
+    {
+        transform: rotate*(80deg);
+        transform-origin: top center;
+    }
+}
+h1{
+    color: antiquewhite;
+}
+.marquee {
+    font-weight:2000;
+    background-color: rgb(9, 9, 9);
+    border-radius: 5% 5% 5% 5%;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+    padding: 0.5%;
+    font-size:xx-large;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px rgb(226, 226, 234), -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.audio{
+    left:100%;
+}
+.top
+{
+    position:absolute;
+    top: -24%;
+    left: 45%;
+    border: 2px solid rgb(10, 9, 9);
+      margin: auto;
+      margin-top: 2%;
+      background-image: radial-gradient(pink,aqua,yellow);
+    width: 5px;
+    height: 30px;
+    border-radius: 20%;
+}
+.top1
+{
+    position:absolute;
+    top: -35%;
+    left: 40%;
+    border: 2px solid rgb(10, 9, 9);
+      margin: auto;
+      margin-top: 2%;
+      background-image: radial-gradient(pink,aqua,yellow);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.box:hover .top1
+{
+    animation: top1 1s infinite;
+}
+@keyframes top1
+{
+    0%
+    {
+        background:rgb(255, 0, 0);
+    }
+    25%
+    {
+        background: yellow;
+    }
+    50%
+    {
+        background:aqua;
+    }
+    75%
+    {
+        background:orange;
+    }
+    100%
+    {
+        background: red;
+    }
+    }
+   
